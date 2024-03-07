@@ -1,86 +1,6 @@
 // Place your key bindings in this file to override the defaultsauto[]
 [
     {
-        "key": "alt+s",
-        "command": "workbench.action.toggleStatusbarVisibility"
-    },
-    {
-        "key": "alt+n",
-        "command": "code-runner.run"
-    },
-    {
-        "key": "ctrl+alt+n",
-        "command": "-code-runner.run"
-    },
-    {
-        "key": "alt+a",
-        "command": "workbench.action.toggleActivityBarVisibility"
-    },
-    {
-        "key": "ctrl+oem_plus",
-        "command": "workbench.action.zoomIn"
-    },
-    {
-        "key": "ctrl+numpad_add",
-        "command": "-workbench.action.zoomIn"
-    },
-    {
-        "key": "ctrl+oem_plus",
-        "command": "workbench.action.zoomOut"
-    },
-    {
-        "key": "ctrl+numpad_subtract",
-        "command": "-workbench.action.zoomOut"
-    },
-    {
-        "key": "alt+m",
-        "command": "editor.action.toggleMinimap"
-    },
-    {
-        "key": "ctrl+oem_minus",
-        "command": "-workbench.action.zoomOut"
-    },
-    {
-        "key": "ctrl+shift+oem_minus",
-        "command": "-workbench.action.zoomOut"
-    },
-    {
-        "key": "shift+alt+oem_minus",
-        "command": "editor.action.fontZoomOut"
-    },
-    {
-        "key": "shift+alt+oem_plus",
-        "command": "editor.action.fontZoomIn"
-    },
-    {
-        "key": "ctrl+shift+oem_plus",
-        "command": "-workbench.action.zoomIn"
-    },
-    {
-        "key": "ctrl+1 ctrl+1",
-        "command": "workbench.action.focusFirstEditorGroup"
-    },
-    {
-        "key": "ctrl+1",
-        "command": "-workbench.action.focusFirstEditorGroup"
-    },
-    {
-        "key": "alt+q",
-        "command": "workbench.action.toggleSidebarVisibility"
-    },
-    {
-        "key": "ctrl+b",
-        "command": "-workbench.action.toggleSidebarVisibility"
-    },
-    {
-        "key": "ctrl+shift+l ctrl+shift+l",
-        "command": "workbench.action.replaceInFiles"
-    },
-    {
-        "key": "ctrl+shift+h",
-        "command": "-workbench.action.replaceInFiles"
-    },
-    {
         "key": "ctrl+shift+h",
         "command": "editor.action.formatDocument",
         "when": "editorHasDocumentFormattingProvider && editorTextFocus && !editorReadonly && !inCompositeEditor"
@@ -99,6 +19,58 @@
         "key": "shift+alt+f",
         "command": "-editor.action.formatDocument.none",
         "when": "editorTextFocus && !editorHasDocumentFormattingProvider && !editorReadonly"
+    },
+    {
+        "key": "alt+m",
+        "command": "editor.action.toggleMinimap"
+    },
+    {
+        "key": "alt+n",
+        "command": "code-runner.run"
+    },
+    {
+        "key": "ctrl+alt+n",
+        "command": "-code-runner.run"
+    },
+    {
+        "key": "alt+a",
+        "command": "workbench.action.toggleActivityBarVisibility"
+    },
+    {
+        "key": "alt+s",
+        "command": "workbench.action.toggleStatusbarVisibility"
+    },
+    {
+        "key": "shift+alt+oem_plus",
+        "command": "editor.action.fontZoomIn"
+    },
+    {
+        "key": "alt+u",
+        "command": "workbench.action.zoomOut"
+    },
+    {
+        "key": "ctrl+numpad_subtract",
+        "command": "-workbench.action.zoomOut"
+    },
+    {
+        "key": "shift+alt+oem_minus",
+        "command": "editor.action.fontZoomOut"
+    },
+    {
+        "key": "shift+alt+z",
+        "command": "editor.action.toggleWordWrap"
+    },
+    {
+        "key": "alt+z",
+        "command": "-editor.action.toggleWordWrap"
+    },
+    {
+        "key": "alt+q",
+        "command": "workbench.action.toggleSidebarVisibility"
+    },
+    {
+        "key": "ctrl+b",
+        "command": "-workbench.action.toggleSidebarVisibility"
     },
     {
         "key": "alt+enter",
